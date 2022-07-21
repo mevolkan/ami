@@ -1,0 +1,123 @@
+:root {
+    --light-orange: #f9a33d;
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 768px;
+    }
+}
+@media (min-width:768px){
+    main{
+        margin-top: -70px;
+    }
+}
+@media (max-width:768px){
+    .p-5{
+        padding: 1rem !important;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+body {
+    background-color: #e5e5e5;
+    font-size: 16px;
+    line-height: 24px;
+    color: #626a6a;
+}
+
+
+h1 {
+    /* font-family: 'Roboto'; */
+    font-weight: 700;
+    color: #1f7776;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.orange-btn {
+    background-color: var(--light-orange);
+    color: #fff;
+    padding: 12px 36px;
+    border-radius: 4px;
+    border: none;
+}
+
+.orange-btn:disabled {
+    opacity: 0.5;
+}
+
+.root>.list-group-item {
+    padding-bottom: 8px;
+}
+
+.root>.list-group-item>.form-check-input {
+    margin-top: .6em;
+}
+
+.root>.list-group-item>div>span,.form-switch label {
+    font-size: 24px;
+    line-height: 32px;
+    color: #051414;
+    font-family: tryDriveRegular;
+}
+
+.root>.list-group-item>div>div {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.root>.list-group-item>div>.list-group-item {
+    padding: 12px 0;
+    margin: 4px 0;
+}
+
+.root>.list-group-item>div>.list-group-item>div>span {
+    font-size: 20px;
+    line-height: 24px;
+    color: #404646;
+    font-family: tryDriveRegular;
+}
+
+.list-group-item {
+    border: none;
+}
+
+
+.root .form-check-input {
+    border: 2px solid #1f7776;
+    border-radius: 4px;
+}
+
+.root .form-check-input:checked {
+    background-color: transparent;
+    border-color: #1f7776;
+}
+
+.root .form-check-input:checked[type="checkbox"] {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23277' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
+}
+
+span.parent {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #051414;
+}
+.form-switch{
+    padding-left: 0;
+}
+.form-switch .form-check-input{
+    margin-left: 0;
+}
+.unsubscribe .form-check-input{
+    margin-top: .75em;
+}
+.unsubscribe .form-check-input:checked {
+    background-color: #F93D49;
+    border-color: #F93D49;
+  }
