@@ -2,5 +2,5 @@
 
 ## Built with
 HTML5, CSS
-Bootstrap 5.2
+Bootstrap 5.2,
 Javascript
