@@ -1,18 +1,21 @@
 :root {
     --light-orange: #f9a33d;
 }
+
 @media (min-width: 1200px) {
-    .container{
-        max-width: 768px;
+    .container {
+        max-width: 812px;
     }
 }
-@media (min-width:768px){
-    main{
+
+@media (min-width:768px) {
+    main {
         margin-top: -70px;
     }
 }
-@media (max-width:768px){
-    .p-5{
+
+@media (max-width:768px) {
+    .p-5 {
         padding: 1rem !important;
     }
 }
@@ -51,6 +54,21 @@ h1 {
     opacity: 0.5;
 }
 
+.select2-container--bootstrap-5 .select2-dropdown .select2-results__options .select2-results__option.select2-results__option--selected,
+.select2-container--bootstrap-5 .select2-dropdown .select2-results__options .select2-results__option[aria-selected="true"]:not(.select2-results__option--highlighted) {
+    color: #1B6664;
+    background-color: #EBFAF9;
+}
+
+.select2-container--bootstrap-5 .select2-dropdown .select2-results__options .select2-results__option.select2-results__option--selected::after {
+    content: url('/assets/images/Check.png');
+    float: right;
+}
+
+.select2-container--bootstrap-5 .select2-dropdown .select2-search {
+    display: none;
+}
+
 .root>.list-group-item {
     padding-bottom: 8px;
 }
@@ -59,7 +77,8 @@ h1 {
     margin-top: .6em;
 }
 
-.root>.list-group-item>div>span,.form-switch label {
+.root>.list-group-item>div>span,
+.form-switch label {
     font-size: 24px;
     line-height: 32px;
     color: #051414;
@@ -108,16 +127,20 @@ span.parent {
     line-height: 32px;
     color: #051414;
 }
-.form-switch{
+
+.form-switch {
     padding-left: 0;
 }
-.form-switch .form-check-input{
+
+.form-switch .form-check-input {
     margin-left: 0;
 }
-.unsubscribe .form-check-input{
+
+.unsubscribe .form-check-input {
     margin-top: .75em;
 }
+
 .unsubscribe .form-check-input:checked {
     background-color: #F93D49;
     border-color: #F93D49;
-  }
+}
